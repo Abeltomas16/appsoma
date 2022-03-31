@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class SomaBloc {
   var controller = TextEditingController();
-  var resultado = 'prencha os valores';
+  var resultado = 'Prencha os valores';
   calculate() {
     try {
       double valor = double.parse(controller.text);
