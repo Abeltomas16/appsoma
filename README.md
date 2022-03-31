@@ -1,16 +1,10 @@
-# appsoma
+# RaizQ App
 
 A new Flutter project.
 
-## Getting Started
+## Conhecendo
 
-This project is a starting point for a Flutter application.
+Este é um projecto flutter usando bloc e lottie, o objectivo principal foi desenvolver um app básico para calcular a raiz quadrada de um número. 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
