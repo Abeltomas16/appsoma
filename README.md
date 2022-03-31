@@ -1,6 +1,5 @@
 # RaizQ App
 
-A new Flutter project.
 
 ## Conhecendo
 
