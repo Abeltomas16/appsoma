@@ -10,7 +10,8 @@ void main() {
     () {
       TextEditingController controller = bloc.controller;
       controller.text = "5";
-      final esperado = 'Raiz quadrada de ${controller.text} é ${sqrt(5)}';
+      final esperado =
+          'Raiz quadrada de ${controller.text} é ${sqrt(5).toStringAsFixed(4)}';
       bloc.calculate();
       expect(esperado, bloc.resultado);
     },
