@@ -5,8 +5,12 @@ class SomaBloc {
   var controller = TextEditingController();
   var resultado = 'prencha os valores';
   calculate() {
-    double valor = double.parse(controller.text);
-    resultado =
-        'Raiz quadrada de ${controller.text} é ${sqrt(valor).toStringAsFixed(4)}';
+    try {
+      double valor = double.parse(controller.text);
+      resultado =
+          'Raiz quadrada de ${controller.text} é ${sqrt(valor).toStringAsFixed(4)}';
+    } catch (e) {
+      resultado = 'Ocorreu um erro';
+    }
   }
 }

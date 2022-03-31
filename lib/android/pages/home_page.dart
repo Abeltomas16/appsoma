@@ -54,6 +54,7 @@ class _HomePageState extends State<HomePage> {
               children: [
                 TextFormField(
                   controller: bloc.controller,
+                  maxLength: 10,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
                     hintText: "Insira o valor",
